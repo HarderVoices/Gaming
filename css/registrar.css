@@ -1,0 +1,59 @@
+.form-control {
+    height: 50px;
+    width: 350px;
+}
+
+#ab {
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.footer {
+    margin-top: 0%;
+    width: 100%;
+    height: 100px;
+    background-color: #1d80be;
+}
+
+.footer2 {
+    background-color: #165881;
+}
+
+.form-control {
+    border-radius: 75px;
+}
+
+.desc {
+    color: white;
+}
+
+.link {
+    color: rgb(0, 255, 13);
+}
+
+#ac {
+    background-image: url("../img/Cronologia-Filme-Rogue-One-Capa-Post.png");
+}
+
+.display-4 {
+    color: #1d80be;
+    text-align: center;
+}
+
+#register {
+    margin-left: 250px;
+    border-radius: 75px;
+}
+
+.btn-danger {
+    margin-left: 80%;
+}
+
+.mb-4 {
+    margin-left: 50%;
+    color: #495057;
+}
+
+form {
+    margin-left: 75px; 
+}

@@ -1,0 +1,312 @@
+/* :root {
+    --input-padding-x: 1.5rem;
+    --input-padding-y: 0.75rem;
+}
+  
+.login, .image {
+    min-height: 100vh;
+}
+  
+.bg-image {
+    background-image: url('https://source.unsplash.com/WEQbe2jBg40/600x1200');
+    background-size: cover;
+    background-position: center;
+}
+  
+.login-heading {
+    font-weight: 300;
+}
+  
+.btn-login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+    border-radius: 2rem;
+}
+  
+.form-label-group {
+    position: relative;
+    margin-bottom: 1rem;
+}
+  
+.form-label-group>input,
+
+.form-label-group>label {
+    padding: var(--input-padding-y) var(--input-padding-x);
+    height: auto;
+    border-radius: 2rem;
+}
+  
+.form-label-group>label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    margin-bottom: 0;
+    line-height: 1.5;
+    color: #495057;
+    cursor: text; 
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: all .1s ease-in-out;
+}
+  
+.form-label-group input::-webkit-input-placeholder {
+    color: transparent;
+}
+  
+.form-label-group input:-ms-input-placeholder {
+    color: transparent;
+}
+  
+.form-label-group input::-ms-input-placeholder {
+    color: transparent;
+}
+  
+.form-label-group input::-moz-placeholder {
+    color: transparent;
+}
+  
+.form-label-group input::placeholder {
+    color: transparent;
+}
+  
+.form-label-group input:not(:placeholder-shown) {
+    padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+    padding-bottom: calc(var(--input-padding-y) / 3);
+}
+  
+.form-label-group input:not(:placeholder-shown)~label {
+    padding-top: calc(var(--input-padding-y) / 3);
+    padding-bottom: calc(var(--input-padding-y) / 3);
+    font-size: 12px;
+    color: #777;
+}
+
+.form-control {
+    height: 50px;
+    width: 350px;
+}
+
+#ab {
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.footer {
+    margin-top: 5%;
+    width: 100%;
+    height: 100px;
+    background-color: #1d80be;
+}
+
+.footer2 {
+    background-color: #165881;
+}
+
+.form-control {
+    border-radius: 75px;
+    color: white;
+}
+
+.desc {
+    color: white;
+}
+
+.link {
+    color: rgb(0, 255, 13);
+}
+
+#ac {
+    background-image: url("../img/Cronologia-Filme-Rogue-One-Capa-Post.png");
+}
+
+.display-4 {
+    color: #1d80be;
+    text-align: center;
+}
+
+#register {
+    margin-left: 250px;
+    border-radius: 75px;
+}
+
+.btn-danger {
+    margin-left: 80%;
+}
+
+.image {
+    background: url("../img/bgEsport.png") no-repeat center center;
+    background-size: cover;
+    height: 570px;
+    margin-top: -20px;
+  }
+  
+  .image .heading {
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+  }
+  
+  .image p {
+    text-align: center;
+    padding: 20px 60px;
+  }
+  
+  .image p .btn {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    font-size: 1.2em;
+  }
+  
+  .image p .btn:hover {
+    color: white;
+    border-color: white;
+  }
+  
+  .navbar {
+    height: 80px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    z-index: 100;
+    transition: background-color 1s ease 0s;
+  }
+  
+  .navbar-default .navbar-brand {
+    margin-top: 10px;
+    color: white;
+  }
+  
+  .navbar-default .navbar-nav > li > a {
+    color: white;
+    margin: 10px 5px 5px 5px;
+    font-size: 16px;
+  }
+  
+  .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:active, .navbar-default .navbar-nav > li > a:focus {
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+  }
+  
+  .navbar-default .navbar-nav > li > a:visited {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: transparent;
+    color: white;
+  }
+  
+  .navbar-default .navbar-toggle {
+    border-color: white;
+  }
+  
+  .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: white;
+  }
+  
+  .navbar-default .navbar-toggle .icon-bar {
+    color: white;
+    background-color: white;
+  }
+  
+  .navbar-default .navbar-collapse.collapse.in ul {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .navbar.solid {
+    transition: background-color 1s ease 0s;
+  }
+  
+  .navbar.solid .navbar-brand {
+    color: rgb(250, 250, 250);
+    transition: color 1s ease 0s;
+  }
+  
+  .navbar.solid .navbar-nav > li > a {
+    color: rgb(255, 255, 255);
+    transition: color 1s ease 0s;
+  }
+  
+  .about {
+    background-color: rgb(255, 250, 250);
+    color: rgb(255, 255, 255);
+    height: 600px;
+    text-align: center;
+    margin-top: -20px;
+  }
+  
+  .about h2 {
+    padding-top: 220px;
+    color: white;
+  }
+  
+  .about p {
+    padding: 20px 80px;
+    color: white;
+  }
+  
+  #fotoFinals {
+    border-radius: 1%;
+    margin-left: 0.5%;
+  }
+  
+  #b>h3 {
+    margin-left: 10px;
+    color: #1d80be;
+  }
+  
+  #b>p {
+    margin-left: 13px;
+    color: #000000;
+  }
+  
+  #informations {
+    background-color: #ffffff;
+  }
+  
+  .c {
+    color: #000000;
+  }
+  
+  h1.my-4 {
+    color: #1d80be;
+  }
+  
+  .desc {
+    color: #1d80be;
+  }
+  
+  .z {
+    color: #1d80be;
+  }
+  
+  .paralax {
+    width: 100%;
+    height: 400px;
+    background: url("../img/cblol.jpg") no-repeat center center;
+  }
+  
+  .desc>#final {
+    color: white;
+  }
+  
+  #tituloSportv {
+    text-align: center;
+    color: #1d80be;
+  }
+  
+  #muted {
+    margin-left: 8.5%;
+  }
+  
+  #laed {
+    margin-left: 8.5%;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif; 
+  } */

@@ -1,0 +1,174 @@
+.image {
+  background: url("../img/bgEsport.png") no-repeat center center;
+  background-size: cover;
+  height: 570px;
+  margin-top: -20px;
+}
+
+.image .heading {
+  color: white;
+  text-align: center;
+  padding-top: 200px;
+}
+
+.image p {
+  text-align: center;
+  padding: 20px 60px;
+}
+
+.image p .btn {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+  font-size: 1.2em;
+}
+
+.image p .btn:hover {
+  color: white;
+  border-color: white;
+}
+
+.navbar {
+  height: 80px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  z-index: 100;
+  transition: background-color 1s ease 0s;
+}
+
+.navbar-default .navbar-brand {
+  margin-top: 10px;
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+  margin: 10px 5px 5px 5px;
+  font-size: 16px;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:active, .navbar-default .navbar-nav > li > a:focus {
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.navbar-default .navbar-nav > li > a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  background-color: transparent;
+  color: white;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: white;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  color: white;
+  background-color: white;
+}
+
+.navbar-default .navbar-collapse.collapse.in ul {
+  background-color: rgb(255, 255, 255);
+}
+
+.navbar.solid {
+  transition: background-color 1s ease 0s;
+}
+
+.navbar.solid .navbar-brand {
+  color: rgb(250, 250, 250);
+  transition: color 1s ease 0s;
+}
+
+.navbar.solid .navbar-nav > li > a {
+  color: rgb(255, 255, 255);
+  transition: color 1s ease 0s;
+}
+
+.about {
+  background-color: rgb(255, 250, 250);
+  color: rgb(255, 255, 255);
+  height: 600px;
+  text-align: center;
+  margin-top: -20px;
+}
+
+.about h2 {
+  padding-top: 220px;
+  color: white;
+}
+
+.about p {
+  padding: 20px 80px;
+  color: white;
+}
+
+#fotoFinals {
+  border-radius: 1%;
+  margin-left: 0.5%;
+}
+
+#b>h3 {
+  margin-left: 10px;
+  color: #1d80be;
+}
+
+#b>p {
+  margin-left: 13px;
+  color: #000000;
+}
+
+#informations {
+  background-color: #ffffff;
+}
+
+.c {
+  color: #000000;
+}
+
+h1.my-4 {
+  color: #1d80be;
+}
+
+.desc {
+  color: #1d80be;
+}
+
+.z {
+  color: #1d80be;
+}
+
+.paralax {
+  width: 100%;
+  height: 400px;
+  background: url("../img/cblol.jpg") no-repeat center center;
+}
+
+.desc>#final {
+  color: white;
+}
+
+#tituloSportv {
+  text-align: center;
+  color: #1d80be;
+}
+
+#muted {
+  margin-left: 8.5%;
+}
+
+#laed {
+  margin-left: 8.5%;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif; 
+}
